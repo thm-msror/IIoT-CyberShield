@@ -187,9 +187,9 @@ Fill the table below once timings are retrieved:
 
 | Workflow               | Step/Cell Group                                                              | Execution Time (seconds) | Notes                                 |
 | ---------------------- | ---------------------------------------------------------------------------- | -----------------------: | ------------------------------------- |
-| Manual Step-by-Step ML | Feature assembly + scaling + individual model training/prediction/evaluation |                      TBD | Collect from Databricks cell runtimes |
-| Spark ML Pipeline      | Pipeline fit + transform (`4.7`)                                             |                      TBD | Collect from Databricks cell runtimes |
-| Spark ML Pipeline + CV | Cross-validation + tuned inference (`4.8` onward)                            |                      TBD | Optional comparison row               |
+| Manual Step-by-Step ML | Feature assembly + scaling + individual model training/prediction/evaluation |                   7 mins | Collect from Databricks cell runtimes |
+| Spark ML Pipeline      | Pipeline fit + transform (`4.7`)                                             |                   1 min  | Collect from Databricks cell runtimes |
+
 
 ## Why Spark ML Pipeline and Vectorization Matter
 
